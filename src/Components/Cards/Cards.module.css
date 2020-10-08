@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.confirmed {
+  border-bottom: 15px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border-bottom: 15px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border-bottom: 15px solid rgba(255, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 15px 25px;
+  }
+
+  .confirmed {
+    border-bottom: 15px solid rgba(0, 0, 255, 0.5);
+  }
+
+  .recovered {
+    border-bottom: 15px solid rgba(0, 255, 0, 0.5);
+  }
+
+  .deaths {
+    border-bottom: 15px solid rgba(255, 0, 0, 0.5);
+  }
+}
